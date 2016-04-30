@@ -1,0 +1,41 @@
+.row-selected {
+  color: #fff;
+}
+
+.bottom-pane {
+  margin-left: 7px;
+  margin-right: 7px;
+  margin-top: 7px;
+}
+
+.bottom-pane-buttons {
+  margin-left: 7px;
+  margin-right: 7px;
+  margin-top: 0px;
+  margin-bottom: 7px;
+}
+
+.code-snippet {
+  display: block;
+  height: 150px;
+}
+
+.code-snippet, .code-snippet *,.response-preview, .response-preview * {
+      -webkit-user-select: text !important;
+      cursor: text !important;
+}
+
+.real-footer {
+  padding-left: 10px !important;
+}
+
+.disabled {
+  color: #999 !important;
+}
+
+.half-div {
+  width: 50%;
+  display: inline-block;
+  padding: 0px;
+  margin: 0px;
+}

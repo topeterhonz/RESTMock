@@ -14,4 +14,19 @@
  * limitations under the License.
  */
 
-include ':androidsample', ':core', ':android', ':recorder'
+package io.appflate.restmock.recording.model;
+
+import com.google.gson.annotations.SerializedName;
+
+/**
+ * Created by andrzejchm on 30/04/16.
+ */
+public class RecordedCall {
+  @SerializedName("request") RecordedRequest request;
+  @SerializedName("response") RecordedResponse response;
+
+  public RecordedCall(RecordedRequest request, RecordedResponse response) {
+    this.request = request;
+    this.response = response;
+  }
+}

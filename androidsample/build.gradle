@@ -63,8 +63,8 @@ dependencies {
     compile 'com.google.dagger:dagger:2.2'
     compile 'com.squareup.retrofit2:retrofit:2.0.2'
     compile 'com.squareup.retrofit2:converter-gson:2.0.2'
-    compile 'com.google.code.gson:gson:2.4'
     compile 'com.google.code.findbugs:annotations:2.0.3'
+    compile 'com.google.code.gson:gson:2.6.2'
     provided 'javax.annotation:jsr250-api:1.0'
     apt 'com.google.dagger:dagger-compiler:2.2'
 
@@ -82,6 +82,7 @@ dependencies {
     androidTestCompile 'com.android.support:design:23.3.0'
 
     //the most important, RESTMock! :)
+    compile project(':recorder')
     androidTestCompile project(':android')
     androidTestCompile(project(':core')) {
         exclude group: 'org.bouncycastle', module: 'bcprov-jdk15on'

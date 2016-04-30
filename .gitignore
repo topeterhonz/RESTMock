@@ -45,3 +45,8 @@ hs_err_pid*
 .gradle
 local.properties
 library/build
+
+# electron
+node_modules
+/dist
+traffic-recorder/dist
